@@ -5,14 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HELPING HANDS ARE BETTER THAN PRAYING LIPS" />
-  <style>
-    .card {
-      justify-content: center;
-    }
-  </style>
+  <meta name="description" content="Helping Hands-A place where no hate exists" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+    .dropdown-menu {
+      background-color: cornsilk;
+    }
+
+    .dropdown-toggle {
+      color: black;
+      background-color: cornsilk;
+      border-color: var(--bs-btn-active-border-color);
+    }
+  </style>
   <title>Helping Hands</title>
   <link rel="icon" href="Helping Hands.jpg" type="image/x-icon">
 </head>
@@ -26,11 +32,22 @@
           class="d-inline-block align-text-top">
         Helping Hands
       </a>
-      <!-- instagram link with image -->
-      <div>
+      <!-- Social media link -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Social media
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.instagram.com/helping.hands_official/">Instagram</a></li>
+          <li><a class="dropdown-item"
+              href="https://twitter.com/helping_handsI?t=de7ue29L3rl_wA-nAKnYPg&s=09">Twitter</a></li>
+          <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+        </ul>
+      </div>
+      <!-- <div>
         <a href="https://www.instagram.com/helping.hands_official/" target="_blank"><img src="Instagram_logo_2022.svg"
             alt="Instagram" height="50" width="50"></a>
-      </div>
+      </div> -->
       <!-- google forms -->
       <a class="nav-link" href="https://forms.gle/Vb9LUfA4oLq4pKdL7" target="_blank">Register</a>
     </div>
@@ -42,21 +59,21 @@
         <img src="2nd.jpeg" class="d-block w-100" alt="group photo">
         <div class="carousel-caption d-none d-md-block">
           <h5>HELPING HANDS</h5>
-          <p>helping hands are better than praying lips.</p>
+          <p>Helping Hands are better than praying lips.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="3.jpg" class="d-block w-100" alt="group photo">
         <div class="carousel-caption d-none d-md-block">
           <h5>HELPING HANDS</h5>
-          <p>helping hands are better than praying lips.</p>
+          <p>Helping Hands are better than praying lips.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="1st.jpeg" class="d-block w-100" alt="group photo">
         <div class="carousel-caption d-none d-md-block">
           <h5>HELPING HANDS</h5>
-          <p>helping hands are better than praying lips.</p>
+          <p>Helping Hands are better than praying lips.</p>
         </div>
       </div>
     </div>
@@ -69,7 +86,6 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
 
   <div class="container h-100" style="width:fit-content;">
     <div class="row align-items-center ">
@@ -87,6 +103,9 @@
         </div>
       </div>
     </div>
+
+
+
 
 
 
